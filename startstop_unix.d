@@ -19,7 +19,7 @@
  Ring   WAVE 		    1024
  Ring   TRIG 		    1024
  Ring   SCN 		    1024
- Ring   OSVA_RING      1024
+ Ring   OSVM_RING      1024
 #
  MyModuleId    MOD_STARTSTOP  # Module Id for this program
  HeartbeatInt  15             # Heartbeat interval in seconds
