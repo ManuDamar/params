@@ -5,7 +5,7 @@
 #       exit or WaveServerV will die.
 #
 MyModuleId    MOD_WSERV_PUBLIC  # wave_servers module id
-RingName      OSVA_RING       # name of transport ring to get data from
+RingName      OSVM_RING       # name of transport ring to get data from
 LogFile       1                # 1=write log file to disk; 0=dont
                                # 2=write to module log but not stderr/stdout
 HeartBeatInt  15               # seconds between heartbeats to statmgr
@@ -71,7 +71,7 @@ TankStructFile  /home/pi/ew/run/tanks/p1000-1.str
 #           SCNL      Record       Logo                  File Size   Index Size       File Name     New       
 #          names       size  (TYPE_TRACEBUF2 only)         (megabytes) (max breaks)     (full path)      Tank      
 
-Tank    MUDA LK UV 01 4096   INST_UNKNOWN       MOD_WILDCARD      800        10000         /home/pi/ew/run/tanks/MUDA_LK_UV_--.tnk
+Tank    OSVM LK UV 01 4096   INST_UNKNOWN       MOD_WILDCARD      800        10000         /home/pi/ew/run/tanks/OSVM_LK_UV_--.tnk
 
 # Advanced Options
 # YES = 1, NO = 0, NO = (default)
