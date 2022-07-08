@@ -30,7 +30,7 @@
  Ring   WAVE            1001    # public parametric data
  Ring   TRIG            1002    # public hypocenters etc.
  Ring   SCN             1003    # private buffer for binder_ew
- Ring   OSVA_RING       1004
+ Ring   OSVM_RING       1004
 
 # Ring   BINDER_RING      1020    # private buffer for binder_ew
 # Ring   EQALARM_EW_RING  1025    # private buffer for eqalam_ew
