@@ -24,7 +24,7 @@ RingName    STATUS
 #   on a system with a very busy ring, and you may need to 
 #   set CheckAllRings to 0 and go back to the old way of using copystatus
 #   Note this defaults to OFF if not set in the config file.
-CheckAllRings	1
+CheckAllRings	0
 
 # Debug is an optional flag (if not provided, defaults to 0 or off)
 # for now there are 2 levels above off: 1 and 2
